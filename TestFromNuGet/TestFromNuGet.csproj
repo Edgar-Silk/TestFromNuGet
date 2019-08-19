@@ -98,8 +98,14 @@
   <ItemGroup>
     <NugetPackageSource Include="https://www.myget.org/F/wrapper-pdfium/api/v3/index.json" />
     <NugetPackageSource Include="https://www.myget.org/F/wrapper-pdfium/api/v2/package" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.CommandLine">
+      <Version>5.1.0</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Wrapper">
-   
       <Version>1.0.0</Version>
     </PackageReference>
   </ItemGroup>
