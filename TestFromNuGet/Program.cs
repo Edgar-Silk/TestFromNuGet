@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//using Wrapper;
+using Wrapper;
 
 namespace TestFromNuGet
 {
@@ -15,7 +15,7 @@ namespace TestFromNuGet
 
             Console.WriteLine("Test for a Nuget Package...\n");
 
-            //Loader.Test();
+            Loader.Test();
 
             Console.ReadKey();
 
