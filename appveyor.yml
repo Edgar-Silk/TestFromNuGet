@@ -2,12 +2,9 @@ version: 1.0.{build}
 image: Visual Studio 2017
 platform: x64
 configuration: Debug
-before_build:
-- cmd: >-
-    dotnet restore
-    nuget restore
+
 build:
   include_nuget_references: true
   verbosity: normal
   project: TestFromNuget.sln 
-test: off
+
