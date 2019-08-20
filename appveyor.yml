@@ -9,5 +9,5 @@ before_build:
 build:
   include_nuget_references: true
   verbosity: normal
-
+  project: TestFromNuget.sln 
 test: off
