@@ -95,5 +95,13 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+
+  <ItemGroup>
+    <!-- ... -->
+    <PackageReference Include="Wrapper" Version="1.0.0" />
+    <!-- ... -->
+  </ItemGroup>
+
+
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
