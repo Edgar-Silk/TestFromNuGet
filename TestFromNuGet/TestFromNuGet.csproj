@@ -75,7 +75,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-   </ItemGroup>
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -95,11 +95,5 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Wrapper" Version="1.0.0" />
-  </ItemGroup>
-
-
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
