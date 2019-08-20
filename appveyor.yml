@@ -13,5 +13,5 @@ build:
   verbosity: normal
   project: TestFromNuget.sln 
 
-#test_script:
-#  - C:\projects\testfromnuget\TestFromNuGet\bin\x64\Debug\TestFromNuGet.exe
+test_script:
+  - C:\projects\testfromnuget\TestFromNuGet\bin\x64\Debug\TestFromNuGet.exe
