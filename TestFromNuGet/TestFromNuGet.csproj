@@ -99,7 +99,7 @@
 
   <ItemGroup>
     <!-- ... -->
-    <PackageReference Include="Wrapper" Version="1.0.0">
+    <PackageReference Include="Wrapper" Version="1.0.1">
       <IncludeAssets>all</IncludeAssets>
     </PackageReference>
     <!-- ... -->
